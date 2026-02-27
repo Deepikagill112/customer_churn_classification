@@ -20,7 +20,7 @@ import pickle
 
 """
 
-#load teh csv data to a pandas dataframe
+#load csv data to a pandas dataframe
 df = pd.read_csv("/content/sample_data/Telco-Customer-Churn dataset.csv")
 
 df.shape
