@@ -238,7 +238,7 @@ X_train = X_train.fillna(0)
 smote = SMOTE(random_state=42, k_neighbors=2)
 X_train_smote, y_train_smote = smote.fit_resample(X_train, y_train)
 
-print("SMOTE applied successfully ✅")
+print("SMOTE applied successfully ")
 
 print(y_train_smote.shape)
 
